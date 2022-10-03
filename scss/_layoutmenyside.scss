@@ -1,0 +1,44 @@
+/*---------------------------------------------------------------------------------*/
+/*------------------------------- LAYOUT MENY-SIDE --------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+.ourstory, .SVmenu, .about{
+    font-size: 50px;
+    font-family: rubik;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 4px rgb(122, 121, 121,0.5);
+    cursor: pointer;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.SVmenu{
+    top: 150px;
+}
+
+.about{
+    top: 250px;
+}
+
+.ourstory:hover:after, .SVmenu:hover:after, .about:hover:after { 
+    content: '';
+    height: 7px;
+    width: 300px;
+    left: 500px;
+    position: relative;
+    background: #e60073;
+    border-radius: 5px;
+    display: block;
+}
+
+.SVmenu:hover:after{
+    width: 300px;
+}
+
+.about:hover:after{
+    width: 300px;
+    padding-bottom: 0%;
+}

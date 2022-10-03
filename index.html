@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To the moon</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css"> 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+  <section class="full-height astronaut">
+    <div class="buttonborder">
+      <button id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="menu"> 
+        <ul>
+          <li class="ourstory"><a href="link">Our story</a></li>
+          <li class="SVmenu"><a href="link">Space <br>Ventures</a></li>
+          <li class="about"><a href="link">About <br><br class="br-mob"> Major Tom</a></li> 
+        </ul>
+      </nav>
+    </div>
+    <p class="text-arrow">⬇</p>
+    <div class="text-box">
+      <h1>To The <br> Moon</h1>
+      <p class="link-text"><a href="link">Read our story <span>→</span></a></p>
+    </div>
+  </section>
+
+<!--------------------------------------------------------------------------------------->
+<!-------------------------------------- SIDA 2 ----------------------------------------->
+<!--------------------------------------------------------------------------------------->
+
+  <section class="full-height text-page">
+    <div class="side2">
+      <div class="left">
+        <div class="space">Space</div>
+        <div class="ventures">Ventures</div>
+        <section class="groundcontrol">
+          <h3 class="groundcontrolrubrik">
+            Ground Control to Major Tom.
+          </h3>  
+          <p class="groundcontroltext">
+            Ground Control to Major Tom. Take your protein pills and put your helmet
+            on. Ground Control to Major Tom (ten, nine, eight, seven, six).
+            Commencing countdown, engines on (five, four, three). Check ignition
+            and may God's love be with you (two, one, liftoff). This is Ground Control
+            to Major Tom.
+          </p>
+          <p class="groundcontroltext">You've really made the grade. And the papers want to know whose shirts
+            you wear. Now it's time to leave the capsule if you dare. This is Major Tom
+            to Ground Control. I'm stepping through the door.
+          </p>
+        </section>
+        <div class="floating">
+          <p>“And I'm floating in a most peculiar way. And the stars look very different today. For here.”</p>
+        </div>
+      </div>  
+
+      <div class="right">
+        <div>
+          <p class="citatstor">
+            Persistence is very <br> 
+            important. You <br>
+            should not give up <br>
+            unless you are <br>
+            forced to give up. 
+          </p>
+        </div>
+        <img class="majortom" src="assets/photos/major_tom.jpg" alt="majortom">
+        <section class="amIsitting">
+          <p class="amIsittingtext"> Am I sitting in a tin can. Far above the world. Planet Earth is blue.
+            And there's nothing I can do. Though I'm past one hundred thousand miles.
+            'm feeling very still. And I think my spaceship. <br> 
+            knows which way to go. Tell my wife I love her<br>
+            very much she knows. <br> <br class="br-mob">
+            Ground Control to Major Tom. Your circuit's dead, there's <br> something wrong. 
+            Can you hear me, Major Tom? Can <br> you hear me, Major Tom? Can you hear me, Major Tom? <br>
+            Can you "Here am I floating 'round my tin can. 
+            <span class="lastpart"><br class="br-mob">Far above the moon. <br>
+            Planet Earth is blue<br>
+            And there's nothing I can do<br>
+            <span class="read">Read more about Major Tom</span></span>
+          </p>
+        </section>
+      </div> 
+    </div>
+    <div class="cookie">
+      <button class="accept">ACCEPT</button>
+      <p class="cookietext">I don’t know where I’m going from here, but I promise it won’t be boring. You should accept cookies.</p>
+      <p class="cookietextmob">I don’t know where I’m going from here, but I promise it won’t be boring. You should accept cookies.</p>
+    </div>
+  </section>
+
+  <script>
+    const menuBtn = document.querySelector('#menu-button');
+    menuBtn.addEventListener('click', () => {
+    menuBtn.classList.toggle('menu-open');
+    });
+  </script>
+
+</body>
+</html>

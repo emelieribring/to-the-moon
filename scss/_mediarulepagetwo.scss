@@ -1,0 +1,94 @@
+    /*---------------------------------------------------------------------------------*/
+    /*----------------------------- MEDIA RULE PAGE TWO -------------------------------*/
+    /*---------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 600px) {
+
+    .darklayer{
+        opacity: 70%;
+    }
+
+    .side2{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .left{
+        align-self: center;
+    }
+
+    .right{
+        align-self: center;
+    }
+
+    .groundcontrol{
+        width: 350px;
+    }
+
+    .amIsitting{
+        width: 350px;
+    }
+
+    .citatstor{
+        display: none;
+    }
+
+    .parent{
+        display: none;
+    }
+
+    .space{
+        left: -32%;
+        margin-bottom: -17%;
+    }
+
+    .ventures{
+        left: 25%;
+    }
+
+    .majortom{
+        display: none;
+    }
+
+    br{
+        display: none;
+    }
+
+    .br-mob{
+        display: block;
+    }
+
+    .lastpart br{
+        display: block;
+        line-height: 10%;
+    }
+
+    .cookie{
+        background-color: rgba(6, 10, 66, 0.8);
+    }
+
+    .cookietextmob{
+        display: block;
+        font-size: 10px;
+        color: rgb(197, 34, 135);
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        left: 5px;
+        padding: 5px;
+        width: 70%;
+    }
+
+    .accept{
+        left: 72%;
+    }
+
+    .cookietext{
+        display: none;
+    }
+
+    .ourstory:hover:after, .SVmenu:hover:after, .about:hover:after{
+        left: 50px;
+    } 
+    
+} 

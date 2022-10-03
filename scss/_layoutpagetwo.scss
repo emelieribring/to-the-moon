@@ -1,0 +1,180 @@
+/*---------------------------------------------------------------------------------*/
+/*-------------------------------- LAYOUT PAGE TWO --------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+.text-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/photos/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.side2{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 40px;
+}
+
+.left{
+    position: relative;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right{
+    position: relative;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ventures{
+    font-family: 'Times New Roman';
+    position: relative;
+    color: rgb(255, 255, 255, 0.4);
+    font-size: 75px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #000;
+    align-self: center;
+    margin-top: -7%;
+}
+
+.space{
+    font-family: Rubik;
+    position: relative;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 2px 2px #000;
+    z-index: 1;
+    align-self: center;
+    left: -10%;
+}
+
+.groundcontrol{
+    position: relative;
+    color: #fff;
+    width: 340px;
+    height: 230px;
+    z-index: 1;
+    font-family: rubik;
+    margin-top: 10%;
+    align-self: center ;
+}
+
+.groundcontrolrubrik{
+    font-weight:bold;
+    position: relative;
+}
+
+.groundcontroltext{
+    text-align: left;   
+    font-size: 10px;
+    line-height: 170%;
+    position: relative;
+}
+
+.floating{
+    position: relative;
+    width: 300px;
+    height: 100px;
+    color: #fff;
+    font-size: 16px;
+    font-family: rubik;
+    font-style: italic;
+    font-weight: 300;
+    align-self: center;
+}
+
+.citatstor{
+    font-family: Rubik;
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    font-style: italic;
+    font-weight:100;
+    background-image: linear-gradient(to top, rgb(209, 71, 209), #fff, rgb(214, 110, 127));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 60%;
+    z-index: 1;
+    left: -15%;
+}
+
+.amIsitting{
+    position: relative;
+    width: 330px;
+    height: 260px;
+    color: #fff;
+    font-family: rubik;
+    font-size: 10px;
+    line-height: 170%;
+}
+
+.majortom{
+    width: 65px;
+    height: 95px;
+    position: absolute;
+    -webkit-transform:rotate(4deg); 
+    transform: rotate(4deg);
+    padding-left:4px; 
+    left: 67%;
+    top: 56%;
+}
+
+.part2{
+    width: 330px;
+}
+
+.lastpart{
+    line-height: 25px;
+}
+
+.cookie{
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    background-color: rgb(6, 10, 66);
+    font-family: Rubik;
+    z-index: 1;
+    bottom: 0%;
+    display: flex;
+}
+
+.cookietext{
+    position: relative;
+    font-size: 13px;
+    color: rgb(197, 34, 135);
+    text-shadow: 0 0 5px rgb(209, 118, 179), 0 0 30px #e60073, 0 0 40px #e60073;
+    justify-content:left;
+    top: 4px;
+    left: -6%;
+}
+
+.cookietextmob{
+    display: none;
+} 
+
+.accept{
+    width: 100px;
+    height: 30px;
+    background-color: #4f51cc;
+    position: relative;
+    color: #fff;
+    font-family: rubik;
+    font-weight: bold;
+    flex-wrap:wrap;
+    left: 90%;
+}
+
+.read{
+    color: #e60073;
+    text-decoration: underline;
+}
+
+.br-mob{
+    display: none;
+}
